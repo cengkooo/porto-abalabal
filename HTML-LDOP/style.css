@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: green;
+    color: red;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+}
+
+#index h1 {
+    background-color: #050101;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    padding: 1em;
+}
+
+#about h1 {
+    background-color: #050101;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+
+#pendidikan h1 {
+    background-color: #050101;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+#pendidikan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#pendidikan table th,
+#pendidikan table td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+}
+
+#contact h1 {
+    background-color: #050101;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
